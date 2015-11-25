@@ -69,6 +69,12 @@ shared/
   _app.js
 ```
 
-### components
+### `components` folder
 
-This is where lives self-contained components. An example of that is the `auth` component shipped with this boilerplate (active in the `backend` app).
+This is where live self-contained so-called components. An example of that is the `auth` component shipped with this boilerplate (active in the `backend` app).
+
+## Dev
+Two distinct gulp tasks will start related app (with `nodemon`) and watch all `**/*.js` files
+
+- `gulp front`
+- `gulp back`
