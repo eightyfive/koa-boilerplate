@@ -8,6 +8,7 @@
     "bookshelf-modelbase": "2.6.x",
     "gulp": "3.9.x",
     "gulp-livereload": "3.8.x",
+    "joi": "7.0.x",
     "knex": "0.9.x",
     "koa": "1.1.x",
     "koa-bodyparser": "2.0.x",
