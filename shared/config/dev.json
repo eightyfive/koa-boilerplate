@@ -3,14 +3,14 @@
     "client": "pg",
     "connection": {
       "host": "localhost",
-      "user": "benoit",
-      "password": "",
-      "database": "medsupervisor",
+      "user": __DB_USER__,
+      "password": __DB_PWD__,
+      "database": __DB_NAME__,
       "charset": "UTF8_GENERAL_CI"
     }
   },
   "facebook": {
-    "appId"    : "__FB__APP-ID--DEV__",
-    "appSecret": "__FB__APP-SECRET--DEV__"
+    "appId"    : __FB__APP-ID--DEV__,
+    "appSecret": __FB__APP-SECRET--DEV__
   }
 }

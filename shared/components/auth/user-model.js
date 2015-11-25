@@ -8,10 +8,8 @@ exports = module.exports = function(BaseModel) {
     tableName: 'users',
 
     validate: {
-      name: Joi.string().required(),
-      languages: Joi.array().unique().required(),
-      education: Joi.string().required(),
-      experience: Joi.string().optional(),
+      email: Joi.string().required(),
+      // ... name, username...
     },
   });
 };
