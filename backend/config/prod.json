@@ -1,0 +1,13 @@
+{
+  "app": {
+    "keys": ["7:Re,x5#DY~iHf-Fk,9B^T4F$UGx!a-C[k<Zxz^uJE2=L%9RbF3Deh_lI]Rki%c_"],
+    "locals": {
+    }
+  },
+  "di": {
+    "namespaces": {
+      "controllers": "backend/controllers",
+      "services": "backend/services"
+    }
+  }
+}

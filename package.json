@@ -1,0 +1,52 @@
+{
+  "name": "koa-boilerplate",
+  "version": "0.0.1",
+  "description": "My (very opiniated) Koa boilerplate - kontainer-di, Bookshelf, passport, Gulp, PM2",
+  "main": "index.js",
+  "dependencies": {
+    "bookshelf": "0.9.x",
+    "bookshelf-modelbase": "2.6.x",
+    "gulp": "3.9.x",
+    "gulp-livereload": "3.8.x",
+    "knex": "0.9.x",
+    "koa": "1.1.x",
+    "koa-bodyparser": "2.0.x",
+    "koa-error": "1.1.x",
+    "koa-flash": "1.0.x",
+    "koa-methodoverride": "1.0.x",
+    "koa-multer": "0.0.x",
+    "koa-passport": "1.2.x",
+    "koa-request-pjax": "1.0.x",
+    "koa-request-xhr": "1.0.x",
+    "koa-router": "5.2.x",
+    "koa-session": "3.3.x",
+    "koa-static": "1.5.x",
+    "koa-swig": "2.1.x",
+    "kontainer-di-lazy": "0.0.x",
+    "lodash": "3.10.x",
+    "moment": "2.10.x",
+    "numeral": "1.5.x",
+    "passport-facebook": "2.0.x",
+    "passport-google-oauth": "0.2.x",
+    "pg": "4.4.x",
+    "string": "3.3.x",
+    "swig-extras": "0.0.x"
+  },
+  "devDependencies": {
+    "eslint": "1.7.x",
+    "eslint-config-airbnb": "0.1.x",
+    "gulp-eslint": "1.0.x",
+    "gulp-nodemon": "2.0.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa",
+    "kontainer-di",
+    "bookshelf",
+    "passport"
+  ],
+  "author": "benoit.sagols@gmail.com",
+  "license": "ISC"
+}

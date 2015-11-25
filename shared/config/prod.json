@@ -1,0 +1,53 @@
+{
+  "app": {
+    "locals": {
+      "charset": "UTF-8"
+    }
+  },
+  "static": "public",
+  "error": {
+    "template": "views/error.swig"
+  },
+  "knex": {
+    "client": "pg",
+    "connection": {
+      "host": "localhost",
+      "user": "__DB_USER__",
+      "password": "__DB_PWD__",
+      "database": "__DB_NAME__",
+      "charset": "UTF8_GENERAL_CI"
+    }
+  },
+  "facebook": {
+    "appId"    : "__FB__APP-ID__",
+    "appSecret": "__FB__APP-SECRET__",
+    "scope": ["email", "public_profile"],
+    "callbackURL": "/auth/facebook/callback",
+    "profileFields": ["id", "displayName", "email"]
+  },
+  "google": {
+    "clientID": "__GOOGLE__CLIENT-ID__",
+    "clientSecret": "__GOOGLE__CLIENT-SECRET__",
+    "callbackURL": "/auth/google/callback",
+    "scope": ["profile", "email"]
+  },
+  "swig": {
+    "root": "views",
+    "autoescape": true,
+    "cache": "memory",
+    "ext": "swig",
+    "writeBody": false
+  },
+  "di": {
+    "aliases": {
+      "bookshelf": "shared/services/bookshelf",
+      "models": "shared/services/models",
+      "swig": "shared/services/swig",
+      "base.model": "shared/models/base-model",
+      "user.model": "@auth/user-model"
+    },
+    "namespaces": {
+      "auth": "shared/components/auth"
+    }
+  }
+}

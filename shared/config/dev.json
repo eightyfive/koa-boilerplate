@@ -1,0 +1,16 @@
+{
+  "knex": {
+    "client": "pg",
+    "connection": {
+      "host": "localhost",
+      "user": "benoit",
+      "password": "",
+      "database": "medsupervisor",
+      "charset": "UTF8_GENERAL_CI"
+    }
+  },
+  "facebook": {
+    "appId"    : "__FB__APP-ID--DEV__",
+    "appSecret": "__FB__APP-SECRET--DEV__"
+  }
+}
